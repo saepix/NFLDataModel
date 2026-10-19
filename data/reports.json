@@ -1,0 +1,188 @@
+{
+  "generatedAt": "2026-10-19T00:00:00Z",
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Opening Slate",
+      "summary": "Strong volume matchups and early-season usage trends lead the model outlook.",
+      "players": [
+        {
+          "name": "Jalen Hurts",
+          "team": "PHI",
+          "position": "QB",
+          "matchup": "vs. DAL",
+          "confidence": 89,
+          "projected": {
+            "passing_yards": 241,
+            "passing_tds": 2,
+            "rushing_yards": 48,
+            "rushing_tds": 1,
+            "interceptions": 1
+          }
+        },
+        {
+          "name": "Christian McCaffrey",
+          "team": "SF",
+          "position": "RB",
+          "matchup": "vs. NYJ",
+          "confidence": 94,
+          "projected": {
+            "rushing_yards": 118,
+            "rushing_tds": 1,
+            "receiving_yards": 42,
+            "receptions": 5,
+            "receiving_tds": 0
+          }
+        },
+        {
+          "name": "Stefon Diggs",
+          "team": "BUF",
+          "position": "WR",
+          "matchup": "vs. ARI",
+          "confidence": 91,
+          "projected": {
+            "receptions": 8,
+            "receiving_yards": 92,
+            "receiving_tds": 1,
+            "targets": 11
+          }
+        },
+        {
+          "name": "Sam LaPorta",
+          "team": "DET",
+          "position": "TE",
+          "matchup": "vs. TB",
+          "confidence": 83,
+          "projected": {
+            "receptions": 6,
+            "receiving_yards": 64,
+            "receiving_tds": 1,
+            "targets": 8
+          }
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Key Matchups",
+      "summary": "Matchup-adjusted production favors efficient passers and RBs with heavy volume.",
+      "players": [
+        {
+          "name": "Patrick Mahomes",
+          "team": "KC",
+          "position": "QB",
+          "matchup": "vs. CIN",
+          "confidence": 90,
+          "projected": {
+            "passing_yards": 286,
+            "passing_tds": 2,
+            "rushing_yards": 18,
+            "rushing_tds": 0,
+            "interceptions": 1
+          }
+        },
+        {
+          "name": "Bijan Robinson",
+          "team": "ATL",
+          "position": "RB",
+          "matchup": "vs. PHI",
+          "confidence": 88,
+          "projected": {
+            "rushing_yards": 96,
+            "rushing_tds": 1,
+            "receptions": 5,
+            "receiving_yards": 36,
+            "receiving_tds": 0
+          }
+        },
+        {
+          "name": "Amon-Ra St. Brown",
+          "team": "DET",
+          "position": "WR",
+          "matchup": "vs. TB",
+          "confidence": 92,
+          "projected": {
+            "receptions": 9,
+            "receiving_yards": 103,
+            "receiving_tds": 1,
+            "targets": 12
+          }
+        },
+        {
+          "name": "T.J. Hockenson",
+          "team": "MIN",
+          "position": "TE",
+          "matchup": "vs. GB",
+          "confidence": 80,
+          "projected": {
+            "receptions": 7,
+            "receiving_yards": 72,
+            "receiving_tds": 1,
+            "targets": 9
+          }
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Trend Watch",
+      "summary": "Volume and red-zone usage continue to drive top-end weekly ceilings.",
+      "players": [
+        {
+          "name": "Josh Allen",
+          "team": "BUF",
+          "position": "QB",
+          "matchup": "vs. HOU",
+          "confidence": 91,
+          "projected": {
+            "passing_yards": 268,
+            "passing_tds": 2,
+            "rushing_yards": 39,
+            "rushing_tds": 1,
+            "interceptions": 1
+          }
+        },
+        {
+          "name": "Joe Mixon",
+          "team": "CIN",
+          "position": "RB",
+          "matchup": "vs. WAS",
+          "confidence": 87,
+          "projected": {
+            "rushing_yards": 101,
+            "rushing_tds": 1,
+            "receptions": 4,
+            "receiving_yards": 31,
+            "receiving_tds": 0
+          }
+        },
+        {
+          "name": "Mike Evans",
+          "team": "TB",
+          "position": "WR",
+          "matchup": "vs. DET",
+          "confidence": 86,
+          "projected": {
+            "receptions": 7,
+            "receiving_yards": 89,
+            "receiving_tds": 1,
+            "targets": 10
+          }
+        },
+        {
+          "name": "Dallas Goedert",
+          "team": "PHI",
+          "position": "TE",
+          "matchup": "vs. ATL",
+          "confidence": 82,
+          "projected": {
+            "receptions": 5,
+            "receiving_yards": 60,
+            "receiving_tds": 1,
+            "targets": 7
+          }
+        }
+      ]
+    }
+  ]
+}
