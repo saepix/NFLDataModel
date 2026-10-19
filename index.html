@@ -12,6 +12,15 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
+			body {
+				background: #1b1f24;
+				color: #f5f7fb;
+			}
+
+			#wrapper {
+				min-height: 100vh;
+			}
+
 			.weekly-reports {
 				margin-top: 2rem;
 			}
@@ -27,11 +36,20 @@
 			}
 
 			.report-card {
+				display: block;
 				background: rgba(255, 255, 255, 0.03);
 				border: 1px solid rgba(255, 255, 255, 0.08);
 				border-radius: 10px;
 				padding: 1.25rem;
 				box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.02);
+				color: inherit;
+				text-decoration: none;
+				transition: transform 0.2s ease, border-color 0.2s ease;
+			}
+
+			.report-card:hover {
+				transform: translateY(-2px);
+				border-color: rgba(125, 164, 255, 0.35);
 			}
 
 			.report-card .report-week {
@@ -64,70 +82,326 @@
 		</style>
 	</head>
 	<body class="is-preload">
-
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
-
-				<!-- Intro -->
-					<div id="intro">
-						<h1>NFL Data Picks<br />
-						</h1>
-						<p>A detailed complex model that adjusts stats predicted with custom formula for realistic stats.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
-
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">NFL Data Picks</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Weekly Reports</a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Weekly Reports -->
-						<section class="weekly-reports">
-							<header class="major">
-								<h2>Weekly Reports</h2>
-								<p>Projected stat trends, matchup notes, and model-driven player outlooks.</p>
-							</header>
-
-							<div class="report-grid">
-								<article class="report-card">
-									<span class="report-week">Week 1</span>
-									<h3>Opening Slate</h3>
-									<ul>
-										<li>Jalen Hurts: 241 pass yards, 1 rush TD</li>
-										<li>Christian McCaffrey: 118 rush yards, 42 rec yards</li>
-										<li>Stefon Diggs: 9.2 targets, 92 receiving yards</li>
-									</ul>
-								</article>
-				<!-- Footer -->
-				
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Sae Lee</li></ul>
-					</div>
-
+		<div id="wrapper" class="fade-in">
+			<div id="intro">
+				<h1>NFL Data Picks<br /></h1>
+				<p>A detailed complex model that adjusts stats predicted with custom formula for realistic stats.</p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<header id="header">
+				<a href="index.html" class="logo">NFL Data Picks</a>
+			</header>
 
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="index.html">Weekly Reports</a></li>
+				</ul>
+			</nav>
+
+			<div id="main">
+				<section class="weekly-reports">
+					<header class="major">
+						<h2>Weekly Reports</h2>
+						<p>Projected stat trends, matchup notes, and model-driven player outlooks.</p>
+					</header>
+
+					<div class="report-grid">
+						<a class="report-card" href="week-1.html">
+							<span class="report-week">Week 1</span>
+							<h3>Opening Slate</h3>
+							<ul>
+								<li>Jalen Hurts: 241 pass yards, 1 rush TD</li>
+								<li>Christian McCaffrey: 118 rush yards, 42 rec yards</li>
+								<li>Stefon Diggs: 9.2 targets, 92 receiving yards</li>
+							</ul>
+						</a>
+
+						<a class="report-card" href="week-2.html">
+							<span class="report-week">Week 2</span>
+							<h3>Rising Matchups</h3>
+							<ul>
+								<li>Josh Allen: 287 pass yards, 2 TD</li>
+								<li>Bijan Robinson: 97 rush yards, 1 receiving TD</li>
+								<li>Amari Cooper: 7.4 targets, 88 rec yards</li>
+							</ul>
+						</a>
+
+						<a class="report-card" href="week-3.html">
+							<span class="report-week">Week 3</span>
+							<h3>Division Pressure</h3>
+							<ul>
+								<li>Patrick Mahomes: 312 pass yards, 2 TD</li>
+								<li>Joe Mixon: 106 rush yards, 1 TD</li>
+								<li>Deebo Samuel: 8.1 targets, 94 rec yards</li>
+							</ul>
+						</a>
+
+						<a class="report-card" href="week-4.html">
+							<span class="report-week">Week 4</span>
+							<h3>Prime-Time Pace</h3>
+							<ul>
+								<li>Kyler Murray: 264 pass yards, 1 rush TD</li>
+								<li>Saquon Barkley: 120 rush yards, 2 total TD</li>
+								<li>Mike Evans: 7.9 targets, 90 receiving yards</li>
+							</ul>
+						</a>
+					</div>
+				</section>
+			</div>
+
+			<div id="copyright">
+				<ul><li>&copy; Sae Lee</li></ul>
+			</div>
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
